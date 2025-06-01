@@ -1,0 +1,17 @@
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Infrastructure.deps.json
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Infrastructure.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Infrastructure.pdb
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\InterestCalculator.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\InterestCalculator.Infrastructure.csproj.CoreCompileInputs.cache
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\InterestCalculator.Infrastructure.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\refint\InterestCalculator.Infrastructure.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\InterestCalculator.Infrastructure.pdb
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\ref\InterestCalculator.Infrastructure.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\InterestCalculator.Infrastructure.csproj.AssemblyReference.cache
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Application.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Models.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Persistence.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Models.pdb
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Persistence.pdb
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\bin\Debug\net8.0\InterestCalculator.Application.pdb
+C:\git\Mine\InterestCalculator\InterestCalculator.Infrastructure\obj\Debug\net8.0\Interest.1C75EF10.Up2Date

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Models", "InterestCalculator.Models\InterestCalculator.Models.csproj", "{E5D3AC40-F6BC-4B55-94C2-D1B76978649C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Console", "InterestCalculator.Console\InterestCalculator.Console.csproj", "{E5D4E151-3EBE-4419-BF2D-FD7F5EF36D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Application", "InterestCalculator.Application\InterestCalculator.Application.csproj", "{27CC5D37-CCF8-4485-99A1-271DA7CBBF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Infrastructure", "InterestCalculator.Infrastructure\InterestCalculator.Infrastructure.csproj", "{967A5135-1836-4888-BEC2-46C63931774E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator.Persistence", "InterestCalculator.Persistence\InterestCalculator.Persistence.csproj", "{E6742034-D0F7-4E64-8DD6-E77746724103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5D3AC40-F6BC-4B55-94C2-D1B76978649C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D3AC40-F6BC-4B55-94C2-D1B76978649C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D3AC40-F6BC-4B55-94C2-D1B76978649C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D3AC40-F6BC-4B55-94C2-D1B76978649C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D4E151-3EBE-4419-BF2D-FD7F5EF36D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D4E151-3EBE-4419-BF2D-FD7F5EF36D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D4E151-3EBE-4419-BF2D-FD7F5EF36D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D4E151-3EBE-4419-BF2D-FD7F5EF36D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CC5D37-CCF8-4485-99A1-271DA7CBBF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CC5D37-CCF8-4485-99A1-271DA7CBBF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CC5D37-CCF8-4485-99A1-271DA7CBBF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CC5D37-CCF8-4485-99A1-271DA7CBBF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967A5135-1836-4888-BEC2-46C63931774E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967A5135-1836-4888-BEC2-46C63931774E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967A5135-1836-4888-BEC2-46C63931774E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967A5135-1836-4888-BEC2-46C63931774E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6742034-D0F7-4E64-8DD6-E77746724103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6742034-D0F7-4E64-8DD6-E77746724103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6742034-D0F7-4E64-8DD6-E77746724103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6742034-D0F7-4E64-8DD6-E77746724103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
