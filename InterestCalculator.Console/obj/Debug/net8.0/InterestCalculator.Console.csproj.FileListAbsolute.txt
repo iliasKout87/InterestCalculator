@@ -53,3 +53,4 @@ C:\git\Mine\InterestCalculator\InterestCalculator.Console\bin\Debug\net8.0\Micro
 C:\git\Mine\InterestCalculator\InterestCalculator.Console\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 C:\git\Mine\InterestCalculator\InterestCalculator.Console\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 C:\git\Mine\InterestCalculator\InterestCalculator.Console\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Console\obj\Debug\net8.0\InterestCalculator.Console.sourcelink.json

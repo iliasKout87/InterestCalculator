@@ -5,6 +5,7 @@ namespace InterestCalculator.Models.InterestCalculation;
 
 public static class InterestPeriodExtensions
 {
+	//TODO: reduce cognitive complexity
 	public static Interest ToInterest(this InterestPeriod interestPeriod, Capital capital)
 	{
 		if (interestPeriod.Period.StartDate.Year == interestPeriod.Period.EndDate.Year)

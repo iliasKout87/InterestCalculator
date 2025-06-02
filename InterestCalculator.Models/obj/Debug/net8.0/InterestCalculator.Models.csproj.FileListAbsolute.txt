@@ -7,3 +7,4 @@ C:\git\Mine\InterestCalculator\InterestCalculator.Models\obj\Debug\net8.0\Intere
 C:\git\Mine\InterestCalculator\InterestCalculator.Models\obj\Debug\net8.0\refint\InterestCalculator.Models.dll
 C:\git\Mine\InterestCalculator\InterestCalculator.Models\obj\Debug\net8.0\InterestCalculator.Models.pdb
 C:\git\Mine\InterestCalculator\InterestCalculator.Models\obj\Debug\net8.0\ref\InterestCalculator.Models.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Models\obj\Debug\net8.0\InterestCalculator.Models.sourcelink.json

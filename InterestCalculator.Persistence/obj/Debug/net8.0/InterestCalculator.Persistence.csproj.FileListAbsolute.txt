@@ -13,3 +13,4 @@ C:\git\Mine\InterestCalculator\InterestCalculator.Persistence\obj\Debug\net8.0\I
 C:\git\Mine\InterestCalculator\InterestCalculator.Persistence\obj\Debug\net8.0\refint\InterestCalculator.Persistence.dll
 C:\git\Mine\InterestCalculator\InterestCalculator.Persistence\obj\Debug\net8.0\InterestCalculator.Persistence.pdb
 C:\git\Mine\InterestCalculator\InterestCalculator.Persistence\obj\Debug\net8.0\ref\InterestCalculator.Persistence.dll
+C:\git\Mine\InterestCalculator\InterestCalculator.Persistence\obj\Debug\net8.0\InterestCalculator.Persistence.sourcelink.json

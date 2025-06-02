@@ -19,37 +19,25 @@ public class HtmlAgilityWebScraping : IWebScraping
 
         using var client = new HttpClient(handler);
 
-        // 2. Set browser-like headers
         client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36");
         client.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
         client.DefaultRequestHeaders.Add("Accept-Language", "en-US,en;q=0.9");
         client.DefaultRequestHeaders.Add("Accept-Encoding", "gzip, deflate, br");
         client.DefaultRequestHeaders.Add("Connection", "keep-alive");
 
-        // 3. First request to get cookies (if needed)
         await client.GetAsync("https://www.bankofgreece.gr/");
-
-        // 4. Main request
         var response = await client.GetAsync("https://www.bankofgreece.gr/statistika/xrhmatopistwtikes-agores/ekswtrapezika-epitokia");
-        response.EnsureSuccessStatusCode();
+        //response.EnsureSuccessStatusCode();
 
         var htmlContent = await response.Content.ReadAsStringAsync();
 
-        // 5. Load into HtmlAgilityPack
         var htmlDoc = new HtmlDocument();
         htmlDoc.LoadHtml(htmlContent);
 
-        // 6. Now you can parse the document
-        //var tables = htmlDoc.DocumentNode.SelectNodes("//table[contains(@class, 'your-class')]");
-        // Process tables...
-        var bankInterestRateTable3 = htmlDoc.DocumentNode.QuerySelectorAll("table");
-
 
         //TODO: handle not found
-        //var web = new HtmlWeb();
-        //var document = await web.LoadFromWebAsync("https://www.bankofgreece.gr/statistika/xrhmatopistwtikes-agores/ekswtrapezika-epitokia");
-
-        var bankInterestRateTable = htmlDoc.DocumentNode.SelectSingleNode("//table[@class='insuranceCompany__table']"); //TODO: add to settings
+        //TODO: add to settings
+        var bankInterestRateTable = htmlDoc.DocumentNode.SelectSingleNode("//table[@class='insuranceCompany__table']");
 
         var bankInterestRateTableRows = bankInterestRateTable.SelectNodes(".//tr");
 

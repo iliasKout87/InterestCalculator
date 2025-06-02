@@ -120,7 +120,7 @@
           "dependencies": {
             "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[1.11.59, )"
+              "version": "[1.12.1, )"
             },
             "HtmlAgilityPack.CssSelectors": {
               "target": "Package",

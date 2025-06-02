@@ -60,12 +60,12 @@ static bool ContinueCalculating()
     {
         Console.Write("\nWould you like to calculate another interest schedule? (y/n): ");
         var response = Console.ReadLine()?.ToLower().Trim();
-        
+
         if (response == "y" || response == "yes")
             return true;
         if (response == "n" || response == "no")
             return false;
-            
+
         Console.WriteLine("Please enter 'y' for yes or 'n' for no.");
     }
 }
@@ -88,6 +88,7 @@ var host = Host.CreateDefaultBuilder(args)
     })
     .Build();
 
+//TODO: handle not found
 var bankInterestRateScheduleRepository = host.Services.GetRequiredService<IReadOnlyRepository<BankInterestRateSchedule>>();
 var bankInterestRateSchedule = await bankInterestRateScheduleRepository.GetAsync();
 

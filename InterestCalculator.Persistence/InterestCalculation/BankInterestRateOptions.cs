@@ -2,6 +2,6 @@ namespace InterestCalculator.Persistence.InterestCalculation;
 
 public class BankInterestRateOptions
 {
-    public string BankOfGreeceInterestRateUrl { get; init; }
+    public required string BankOfGreeceInterestRateUrl { get; init; }
 }
 

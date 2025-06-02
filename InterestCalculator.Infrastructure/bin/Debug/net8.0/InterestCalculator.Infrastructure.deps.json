@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "InterestCalculator.Infrastructure/1.0.0": {
         "dependencies": {
-          "HtmlAgilityPack": "1.11.59",
+          "HtmlAgilityPack": "1.12.1",
           "HtmlAgilityPack.CssSelectors": "1.0.2",
           "InterestCalculator.Models": "1.0.0",
           "InterestCalculator.Persistence": "1.0.0"
@@ -17,17 +17,17 @@
           "InterestCalculator.Infrastructure.dll": {}
         }
       },
-      "HtmlAgilityPack/1.11.59": {
+      "HtmlAgilityPack/1.12.1": {
         "runtime": {
-          "lib/netstandard2.0/HtmlAgilityPack.dll": {
-            "assemblyVersion": "1.11.59.0",
-            "fileVersion": "1.11.59.0"
+          "lib/net8.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.12.1.0",
+            "fileVersion": "1.12.1.0"
           }
         }
       },
       "HtmlAgilityPack.CssSelectors/1.0.2": {
         "dependencies": {
-          "HtmlAgilityPack": "1.11.59"
+          "HtmlAgilityPack": "1.12.1"
         },
         "runtime": {
           "lib/net45/HtmlAgilityPack.CssSelectors.dll": {
@@ -139,12 +139,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "HtmlAgilityPack/1.11.59": {
+    "HtmlAgilityPack/1.12.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0tMaGzTJ5uFFMCYvprZ4hRYg6Dm5E+/WeMFJiD5K83Fe/Y6kyLaRKcfrfUwfb1j428XzB4/2RR7sdxoQX5eaEA==",
-      "path": "htmlagilitypack/1.11.59",
-      "hashPath": "htmlagilitypack.1.11.59.nupkg.sha512"
+      "sha512": "sha512-SP6/2Y26CXtxjXn0Wwsom9Ek35SNWKHEu/IWhNEFejBSSVWWXPRSlpqpBSYWv1SQhYFnwMO01xVbEdK3iRR4hg==",
+      "path": "htmlagilitypack/1.12.1",
+      "hashPath": "htmlagilitypack.1.12.1.nupkg.sha512"
     },
     "HtmlAgilityPack.CssSelectors/1.0.2": {
       "type": "package",
